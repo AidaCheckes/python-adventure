@@ -53,3 +53,21 @@ elif (decision == "2"):
     print("Your items now: ")
     print(player_items)
 #            ---section end---           #
+
+# Section autor: Aida                    #
+print("The Maryland police stop you and try to collect taxes from you! What do you do!")
+print("1. Run from police")
+print("2. Tell him you dont have a money")
+decision = ""
+while(decision == ""):
+     decision = input("Pick a number")
+    if (decision == 1):
+        print("You will be shot! Game over!")
+        exit()
+    elif (decision == 2):
+        print("Police will give you a warning!")
+        print("Go home!")
+    else:
+        print("Please enter 1 or 2")
+    
+#  End section  #    
